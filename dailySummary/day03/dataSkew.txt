@@ -1,0 +1,35 @@
+数据倾斜 :在进行group by的时候一个非常多一个非常少导致在查询过程中 其中数据少的map阶段已经执行完成
+但是还要等待另一个的map执行完一起到reduce
+
+
+解决办法: 将group by的字段进行拼接随机数 使其独自成为一组 在进行截取 截出原始分组字段 再进行计数
+with t1 as (
+    select userid,
+           order_no,
+           concat(region,'-',rand()) as region,
+           product_no,
+           color_no,
+           sale_amount,
+           ts
+    from date_east
+),
+    t2 as (
+        select region,
+               count(1) as cnt
+        from t1
+        group by region
+    ),
+    t3 as (
+        select region,
+               substr(region,1,2) as re,
+               cnt
+        from t2
+    )
+select re,
+       count(1) as cnt
+from t3
+group by re;
+
+
+
+效果:提高数据查询效率 数据量越大 效果越明显
