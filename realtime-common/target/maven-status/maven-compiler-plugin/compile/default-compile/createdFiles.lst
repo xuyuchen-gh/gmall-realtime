@@ -1,0 +1,9 @@
+com\bw\gmall\realtime\common\constant\Constant.class
+com\bw\gmall\realtime\common\util\HBaseUtil.class
+com\bw\gmall\realtime\common\base\BaseApp.class
+com\bw\gmall\realtime\common\bean\TableProcessDim.class
+com\bw\gmall\realtime\common\util\DateFormatUtil.class
+com\bw\gmall\realtime\common\util\FlinkSourceUtil.class
+com\bw\gmall\realtime\common\util\FlinkSinkUtil.class
+com\bw\gmall\realtime\common\util\JdbcUtil.class
+com\bw\gmall\realtime\common\util\FlinkSourceUtil$1.class

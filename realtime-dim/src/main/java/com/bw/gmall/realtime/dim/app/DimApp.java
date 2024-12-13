@@ -80,7 +80,7 @@ public class DimApp extends BaseApp {
                             String type = jsonObj.getString("type");
                             String data = jsonObj.getString("data");
 
-                            return "gmall".equals(db)
+                            return "gmall2024".equals(db)
                                     && ("insert".equals(type)
                                     || "update".equals(type)
                                     || "delete".equals(type)

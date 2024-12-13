@@ -53,10 +53,13 @@ public class DwdBaseLog extends BaseApp {
         // 1. etl
         SingleOutputStreamOperator<JSONObject> etledStream = etl(stream);
 
+
+        etledStream.print();
         // 2. 纠正新老客户
         SingleOutputStreamOperator<JSONObject> validatedStream = validateNewOrOld(etledStream);
         // 3. 分流
         Map<String, DataStream<JSONObject>> streams = splitStream(validatedStream);
+
 
         // 4. 不同的流写出到不同的 topic
         writeToKafka(streams);

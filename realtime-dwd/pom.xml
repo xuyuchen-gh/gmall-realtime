@@ -17,7 +17,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.bw</groupId>
+            <groupId>org.example</groupId>
             <artifactId>realtime-common</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>provided</scope>
