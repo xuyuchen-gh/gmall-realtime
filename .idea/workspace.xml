@@ -5,30 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa641d97-84a5-424e-9c95-688546b315ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dailySummary/day01/day01.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dailySummary/day03/day03.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime-common/src/main/java/com/bw/gmall/realtime/common/util/DateFormatUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime-common/src/main/java/com/bw/gmall/realtime/common/util/FlinkSinkUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime-dwd/realtime-dwd-base-log/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/realtime-dwd/realtime-dwd-base-log/src/main/java/com.bw.gmall.realtime.dwd.db.split.app/DwdBaseLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/realtime-common/src/main/java/com/bw/gmall/realtime/common/base/BaseApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/realtime-common/src/main/java/com/bw/gmall/realtime/common/base/BaseApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/realtime-common/target/classes/com/bw/gmall/realtime/common/base/BaseApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/realtime-common/target/classes/com/bw/gmall/realtime/common/base/BaseApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/realtime-common/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/realtime-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/realtime-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/realtime-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/realtime-common/target/original-realtime-common-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/realtime-common/target/realtime-common-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/realtime-dim/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/realtime-dim/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/realtime-dim/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/realtime-dim/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/realtime-dwd/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/realtime-dwd/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gmall2024-realtime-1.0-SNAPSHOT-shaded.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dailySummary/day03/day03.md" beforeDir="false" afterPath="$PROJECT_DIR$/dailySummary/day03/day03.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +107,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1734011688096</updated>
-      <workItem from="1734011689376" duration="2377000" />
+      <workItem from="1734011689376" duration="2790000" />
     </task>
     <servers />
   </component>
