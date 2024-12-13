@@ -28,7 +28,7 @@ public abstract class BaseApp {
         Configuration conf = new Configuration();
         conf.setInteger("rest.port", port);
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment(conf);
-
+        env.disableOperatorChaining();
         // 1.3 设置并行度
         env.setParallelism(parallelism);
 

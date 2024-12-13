@@ -8,20 +8,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="realtime-common" />
-        <module name="realtime-dim" />
         <module name="realtime-dws" />
-        <module name="realtime-dwd" />
+        <module name="realtime-dim" />
+        <module name="realtime-dwd-base-log" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="realtime-dwd-base-log" target="1.8" />
-      <module name="realtime-dwd-interaction-comment-info" target="1.8" />
-      <module name="realtime-dwd-trade-cart-add" target="1.8" />
-      <module name="realtime-dwd-trade-order-cancel-detail" target="1.8" />
-      <module name="realtime-dwd-trade-order-detail" target="1.8" />
-      <module name="realtime-dwd-trade-order-pay-suc-detail" target="1.8" />
-      <module name="realtime-dwd-trade-order-refund" target="1.8" />
-      <module name="realtime-dwd-trade-refund-pay-suc-detail" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
