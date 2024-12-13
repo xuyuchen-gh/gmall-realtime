@@ -49,6 +49,7 @@ public class HBaseUtil {
         admin.createTable(desc);
         admin.close();
         log.info(nameSpace + " " + table + " 建表成功");
+//        System.out.println(nameSpace + "" + table + "建表成功");
     }
 
     public static void dropHBaseTable(Connection hbaseConn,
@@ -63,7 +64,7 @@ public class HBaseUtil {
         }
         admin.close();
         log.info(nameSpace + " " + table + " 删除成功");
-
+//        System.out.println(nameSpace + " " + table + " 删除成功");
     }
 
     /**

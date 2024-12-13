@@ -36,7 +36,7 @@ public class HBaseSinkFunction extends RichSinkFunction<Tuple2<JSONObject, Table
                        Context context) throws Exception {
         // insert update delete bootstrap-insert
         JSONObject data = dataWithConfig.f0;
-        String opType = data.getString("op_type");
+        String opType = data.getString("op");
 
         if ("delete".equals(opType)) {
             // 删除维度信息
@@ -54,7 +54,7 @@ public class HBaseSinkFunction extends RichSinkFunction<Tuple2<JSONObject, Table
         String rowKey = data.getString(tableProcessDim.getSinkRowKey());
         log.info("向 HBase 写入数据 dataWithConfig: " + dataWithConfig);
         // data中有多少 kv 就写多少列 - 1
-        data.remove("op_type");
+        data.remove("op");
         HBaseUtil.putRow(conn,
                 Constant.HBASE_NAMESPACE,
                 tableProcessDim.getSinkTable(),

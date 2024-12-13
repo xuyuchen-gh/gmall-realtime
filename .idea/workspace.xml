@@ -4,26 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60a7d656-d96a-422f-85f6-f43377d28fc0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dailySummary/day04/day04.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dailySummary/day04/img.png" afterDir="false" />
+    <list default="true" id="77e0c432-69fa-4726-be8a-5117b684b828" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/realtime-common/src/main/java/com/bw/gmall/realtime/common/base/BaseSQLApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime-common/src/main/java/com/bw/gmall/realtime/common/util/SQLUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime-dwd/realtime-dwd-interaction-comment-info/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime-dwd/realtime-dwd-interaction-comment-info/src/main/java/com/bw/gmall/realtime/dwd/db/app/DwdInteractionCommentInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime-dwd/realtime-dwd-trade-cart-add/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime-dwd/realtime-dwd-trade-cart-add/src/main/java/com/bw/gmall/realtime/dwd/db/app/DwdTradeCartAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime-dwd/realtime-dwd-trade-order-detail/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/realtime-common/src/main/java/com/bw/gmall/realtime/common/base/BaseApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/realtime-common/src/main/java/com/bw/gmall/realtime/common/base/BaseApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/realtime-dim/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/realtime-dim/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime-common/src/main/java/com/bw/gmall/realtime/common/util/HBaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/realtime-common/src/main/java/com/bw/gmall/realtime/common/util/HBaseUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime-common/target/classes/com/bw/gmall/realtime/common/util/HBaseUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/realtime-common/target/classes/com/bw/gmall/realtime/common/util/HBaseUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/realtime-dim/src/main/java/com/bw/gmall/realtime/dim/app/DimApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/realtime-dim/src/main/java/com/bw/gmall/realtime/dim/app/DimApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime-dim/src/main/java/com/bw/gmall/realtime/dim/function/HBaseSinkFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/realtime-dim/src/main/java/com/bw/gmall/realtime/dim/function/HBaseSinkFunction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/realtime-dim/target/classes/com/bw/gmall/realtime/dim/app/DimApp$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/realtime-dim/target/classes/com/bw/gmall/realtime/dim/app/DimApp$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime-dim/target/classes/com/bw/gmall/realtime/dim/app/DimApp$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/realtime-dim/target/classes/com/bw/gmall/realtime/dim/app/DimApp$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime-dim/target/classes/com/bw/gmall/realtime/dim/app/DimApp$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/realtime-dim/target/classes/com/bw/gmall/realtime/dim/app/DimApp$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime-dim/target/classes/com/bw/gmall/realtime/dim/app/DimApp$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/realtime-dim/target/classes/com/bw/gmall/realtime/dim/app/DimApp$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime-dim/target/classes/com/bw/gmall/realtime/dim/app/DimApp$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/realtime-dim/target/classes/com/bw/gmall/realtime/dim/app/DimApp$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime-dim/target/classes/com/bw/gmall/realtime/dim/app/DimApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/realtime-dim/target/classes/com/bw/gmall/realtime/dim/app/DimApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime-dim/target/classes/com/bw/gmall/realtime/dim/function/HBaseSinkFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/realtime-dim/target/classes/com/bw/gmall/realtime/dim/function/HBaseSinkFunction.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/realtime-dwd/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/realtime-dwd/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/realtime-dwd/realtime-dwd-base-log/src/main/java/com.bw.gmall.realtime.dwd.db.split.app/DwdBaseLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/realtime-dwd/realtime-dwd-base-log/src/main/java/com.bw.gmall.realtime.dwd.db.split.app/DwdBaseLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/realtime-dwd/realtime-dwd-base-log/target/classes/com/bw/gmall/realtime/dwd/db/split/app/DwdBaseLog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/realtime-dwd/realtime-dwd-base-log/target/classes/com/bw/gmall/realtime/dwd/db/split/app/DwdBaseLog$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/realtime-dwd/realtime-dwd-base-log/target/classes/com/bw/gmall/realtime/dwd/db/split/app/DwdBaseLog$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/realtime-dwd/realtime-dwd-base-log/target/classes/com/bw/gmall/realtime/dwd/db/split/app/DwdBaseLog$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/realtime-dwd/realtime-dwd-base-log/target/classes/com/bw/gmall/realtime/dwd/db/split/app/DwdBaseLog$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/realtime-dwd/realtime-dwd-base-log/target/classes/com/bw/gmall/realtime/dwd/db/split/app/DwdBaseLog$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/realtime-dwd/realtime-dwd-base-log/target/classes/com/bw/gmall/realtime/dwd/db/split/app/DwdBaseLog$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/realtime-dwd/realtime-dwd-base-log/target/classes/com/bw/gmall/realtime/dwd/db/split/app/DwdBaseLog$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/realtime-dwd/realtime-dwd-base-log/target/classes/com/bw/gmall/realtime/dwd/db/split/app/DwdBaseLog$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/realtime-dwd/realtime-dwd-base-log/target/classes/com/bw/gmall/realtime/dwd/db/split/app/DwdBaseLog$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/realtime-dwd/realtime-dwd-base-log/target/classes/com/bw/gmall/realtime/dwd/db/split/app/DwdBaseLog$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/realtime-dwd/realtime-dwd-base-log/target/classes/com/bw/gmall/realtime/dwd/db/split/app/DwdBaseLog$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/realtime-dwd/realtime-dwd-base-log/target/classes/com/bw/gmall/realtime/dwd/db/split/app/DwdBaseLog$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/realtime-dwd/realtime-dwd-base-log/target/classes/com/bw/gmall/realtime/dwd/db/split/app/DwdBaseLog$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/realtime-dwd/realtime-dwd-base-log/target/classes/com/bw/gmall/realtime/dwd/db/split/app/DwdBaseLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/realtime-dwd/realtime-dwd-base-log/target/classes/com/bw/gmall/realtime/dwd/db/split/app/DwdBaseLog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/realtime-dws/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/realtime-dws/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +38,13 @@
   </component>
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,7 +65,10 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectId" id="2q8pTcmfM9lU1rfXSfVtBKGzHSC" />
+  <component name="ProjectId" id="2q9w6yjFyvFkMjGiJDGA9rJQ4rT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -65,6 +78,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -72,56 +86,36 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DwdBaseLog">
-    <configuration name="DimApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="DwdTradeCartAdd" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.bw.gmall.realtime.dim.app.DimApp" />
-      <module name="realtime-dim" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bw.gmall.realtime.dim.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.bw.gmall.realtime.dwd.db.app.DwdTradeCartAdd" />
+      <module name="realtime-dwd-trade-cart-add" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DwdBaseLog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.bw.gmall.realtime.dwd.db.split.app.DwdBaseLog" />
-      <module name="realtime-dwd-base-log" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bw.gmall.realtime.dwd.db.split.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.DwdBaseLog" />
-      <item itemvalue="Application.DimApp" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.DwdBaseLog" />
-        <item itemvalue="Application.DimApp" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="60a7d656-d96a-422f-85f6-f43377d28fc0" name="Changes" comment="" />
-      <created>1734054067167</created>
+      <changelist id="77e0c432-69fa-4726-be8a-5117b684b828" name="Changes" comment="" />
+      <created>1734087929130</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1734054067167</updated>
-      <workItem from="1734054068579" duration="286000" />
-      <workItem from="1734054370515" duration="731000" />
+      <updated>1734087929130</updated>
+      <workItem from="1734087930635" duration="1439000" />
+      <workItem from="1734089391245" duration="1458000" />
     </task>
     <servers />
   </component>

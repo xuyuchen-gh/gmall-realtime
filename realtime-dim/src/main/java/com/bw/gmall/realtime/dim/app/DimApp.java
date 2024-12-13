@@ -53,8 +53,10 @@ public class DimApp extends BaseApp {
         // 1. 对消费的数据, 做数据清洗
         SingleOutputStreamOperator<JSONObject> etlStream = etl(stream);
 
+        etlStream.print();
         // 2. 通过 flink cdc 读取配置表的数据
         SingleOutputStreamOperator<TableProcessDim> configStream = readTableProcess(env);
+
 
         // 3. 根据配置表的数据, 在 HBase 中建表
         configStream = createHBaseTable(configStream);
