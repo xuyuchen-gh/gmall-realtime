@@ -37,7 +37,7 @@ public class DwdTradeCartAdd extends BaseSQLApp {
                         ") sku_num ," +
                         " ts " +
                         "from topic_db " +
-                        "where `database`='gmall' " +
+                        "where `database`='gmall2024' " +
                         "and `table`='cart_info' " +
                         "and (" +
                         " `type`='insert' " +
