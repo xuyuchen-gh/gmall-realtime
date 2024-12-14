@@ -63,7 +63,7 @@ public class DwdTradeOrderDetail extends BaseSQLApp {
                         "data['user_id'] user_id," +
                         "data['province_id'] province_id " +
                         "from topic_db " +
-                        "where `database`='gmal2024' " +
+                        "where `database`='gmall2024' " +
                         "and `table`='order_info' " +
                         "and `type`='insert' ");
         tEnv.createTemporaryView("order_info", orderInfo);

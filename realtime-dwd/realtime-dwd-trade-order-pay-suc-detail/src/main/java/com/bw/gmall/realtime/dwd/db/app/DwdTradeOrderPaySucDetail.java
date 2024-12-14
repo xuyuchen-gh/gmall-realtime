@@ -15,7 +15,7 @@ public class DwdTradeOrderPaySucDetail extends BaseSQLApp {
     public static void main(String[] args) {
         new DwdTradeOrderPaySucDetail().start(
                 10016,
-                4,
+                1,
                 Constant.TOPIC_DWD_TRADE_ORDER_PAYMENT_SUCCESS
         );
     }
