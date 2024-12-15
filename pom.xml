@@ -13,7 +13,6 @@
         <module>realtime-dim</module>
         <module>realtime-dwd</module>
         <module>realtime-dws</module>
-        <module>realtime-dwd/realtime-dwd-base-db</module>
     </modules>
 
     <properties>

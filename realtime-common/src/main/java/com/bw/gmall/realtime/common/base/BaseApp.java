@@ -19,7 +19,7 @@ public abstract class BaseApp {
     public abstract void handle(StreamExecutionEnvironment env,
                                 DataStreamSource<String> stream);
 
-    public void start(int port, int parallelism, String ckAndGroupId, String topic) {
+    public void start(int port, int parallelism, String  ckAndGroupId, String topic) {
         // 1. 环境准备
         // 1.1 设置操作 Hadoop 的用户名为 Hadoop 超级用户 hadoop
         System.setProperty("HADOOP_USER_NAME", "hadoop");
